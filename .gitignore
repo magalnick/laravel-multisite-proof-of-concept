@@ -9,4 +9,8 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-.env
+.env*
+!.env.dev
+!.env.local
+!.env.example
+!.env.production

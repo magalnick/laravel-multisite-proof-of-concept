@@ -78,16 +78,20 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title">
+                    Laravel Multisite Test
+                </div>
+                <div class="m-b-md">
+                    {{ env('APP_URL') }}
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="/api/v1/core/a/test">Core A</a>
+                    <a href="/api/v1/core/b/test">Core B</a>
+                    <a href="/api/v1/core/shared/test">Core Shared</a>
+                    <a href="/api/v1/vendor/a/test">Vendor A</a>
+                    <a href="/api/v1/vendor/b/test">Vendor B</a>
+                    <a href="/api/v1/vendor/shared/test">Vendor Shared</a>
                 </div>
             </div>
         </div>
